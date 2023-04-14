@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <?php
+<?php
 
     // Define min and max as constants
     define("MIN", 1);
@@ -21,5 +19,5 @@
   if ($correctNumber != $guessedNumber) {
       echo "Sorry, you guessed the wrong number. The correct number was $correctNumber. Try again!";
   }
-    ?>
-</html>
+?>
+
